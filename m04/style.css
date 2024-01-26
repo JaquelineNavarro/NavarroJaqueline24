@@ -50,13 +50,13 @@ body {
     margin-right: 50px;
     margin-top: 10px;
     margin-bottom: 20px;
-    height: 100 em;
+    height: 250px;
     width: 1370px;
     font-size: 20px;
 
 }
 #feature img {
-    width: 250px;
+    width: 150px;
     float: right;
 }
 
