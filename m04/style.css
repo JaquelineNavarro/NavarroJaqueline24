@@ -104,4 +104,6 @@ body {
     width: 1370px;
     margin-bottom: 30px;
 }
-
+#validator {
+    text-align: center;
+}
