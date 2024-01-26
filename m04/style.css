@@ -42,6 +42,10 @@ body {
     color: greenyellow;
 }
 
+#content {
+    overflow: auto;
+}
+
 #feature {
     display: inline-block;
     background-color: white;
