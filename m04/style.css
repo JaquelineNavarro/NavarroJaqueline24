@@ -26,8 +26,10 @@ body {
     text-align: center;
     font-size: 20px;
     margin: 10px;
-    padding: 10px;
+    padding: 10px 0px 5px 0px;
     width: 940px;
+    margin-top: 20px;
+
     
 }
 #nav ul {
@@ -55,16 +57,24 @@ body {
     background-color: white;
     text-align: center;
     margin: 10px;
-    padding: 10px;
+    padding: 10px 0px 5px 0px;
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
     width: 940px;
+    
 
 }
 #feature img {
-    width: 150px;
+    width: 80px;
     float: right;
+    clear: right;
+    display: block;
+    margin: 0px auto;
+}
+.clear {
+    clear: both;
 }
 
 .article-column1 {
@@ -75,7 +85,8 @@ body {
     background-color: lightblue;
     display: inline-block;
     text-align: center;
-    
+    padding: 10px 0px 5px 0px;
+    margin-top: 20px;
     
 }
 .article-column2 {
@@ -86,7 +97,8 @@ body {
     background-color: brown;
     display: inline-block;
     text-align: center;
-    
+    padding: 10px 0px 5px 0px;
+    margin-top: 20px;
     
 }
 .article-column3 {
@@ -97,6 +109,8 @@ body {
     background-color: burlywood;
     display: inline-block;
     text-align: center;
+    padding: 10px 0px 5px 0px;
+    margin-top: 20px;
     
 }
 #footer {
@@ -104,9 +118,10 @@ body {
     background-color: goldenrod;
     text-align: center;
     margin: 10px;
-    padding: 10px;
+    padding: 10px 0px 5px 0px;
     font-size: 20px;
     width: 940px;
+    margin-top: 20px;
     
 }
 #validator {
