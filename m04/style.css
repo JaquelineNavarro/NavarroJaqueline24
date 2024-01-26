@@ -33,27 +33,26 @@ body {
     padding: 10px 0px 5px 0px;
     width: 940px;
     margin-top: 20px; 
-    
-    > ul {
-        list-style-type: none;
-        
-        li {
-            display: inline-block;
-            padding: 5px 20px;
-        } 
-    }
-
-    a {
-        text-decoration: none;
-        color: bisque;
-
-        &:hover {
-            color:greenyellow;
-        }
-    }
-
 }
+    
+#nav ul {
+    list-style-type: none;
+    }
+        
+#nav ul li {
+    display: inline-block;
+    padding: 5px 20px;
+    } 
 
+#nav a {
+    text-decoration: none;
+    color: bisque; 
+    }
+
+#nav a:hover {
+    color:greenyellow;
+    }
+    
 #content {
     overflow: auto;
     height: 100%;
@@ -67,15 +66,14 @@ body {
     font-size: 20px;
     margin: 0 10px;
     width: 940px; 
-
-    img {
+}
+#feature img{
         width: 80px;
         float: right;
         clear: right;
         display: block;
         margin: 0px auto;
     }
-}
 
 .clear {
     clear: both;
