@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 #title {
     font-family: 'GrandHotelRegular';
     font-weight: normal;
@@ -5,8 +9,6 @@
     text-align: center;
     font-size: 120px;
     color: aliceblue;
-    margin: 0%;
-    padding: 0%;
     width: 940px;
 }
 
@@ -16,12 +18,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     font-family: 'Times New Roman', Times, serif;
-    
 }
+
 #wrapper {
     width: 960px;
     margin: 0 auto;
-    
 }
 
 #nav {
@@ -31,23 +32,26 @@ body {
     margin: 10px;
     padding: 10px 0px 5px 0px;
     width: 940px;
-    margin-top: 20px;
-
+    margin-top: 20px; 
     
-}
-#nav ul {
-    list-style-type: none;
-}
-#nav ul li {
-    display: inline-block;
-    padding: 5px 20px;
-}
-#nav a {
-    text-decoration: none;
-    color: bisque;
-}
-#nav a:hover {
-    color: greenyellow;
+    ul {
+        list-style-type: none;
+        
+        li {
+            display: inline-block;
+            padding: 5px 20px;
+        } 
+    }
+
+    a {
+        text-decoration: none;
+        color: bisque;
+
+        &:hover {
+            color:greenyellow;
+        }
+    }
+
 }
 
 #content {
@@ -64,14 +68,15 @@ body {
     margin: 0 auto;
     width: 940px; 
 
+    img {
+        width: 80px;
+        float: right;
+        clear: right;
+        display: block;
+        margin: 0px auto;
+    }
 }
-#feature img {
-    width: 80px;
-    float: right;
-    clear: right;
-    display: block;
-    margin: 0px auto;
-}
+
 .clear {
     clear: both;
 }
@@ -85,9 +90,9 @@ body {
     display: inline-block;
     text-align: center;
     padding: 10px 0px 5px 0px;
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 }
+
 .article-column2 {
     width: 300px;
     height: 150px;
@@ -97,9 +102,9 @@ body {
     display: inline-block;
     text-align: center;
     padding: 10px 0px 5px 0px;
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 }
+
 .article-column3 {
     width: 300px;
     height: 150px;
@@ -110,8 +115,8 @@ body {
     text-align: center;
     padding: 10px 0px 5px 0px;
     margin-top: 20px;
-    
 }
+
 #footer {
     display: inline-block;
     background-color: goldenrod;
@@ -121,8 +126,8 @@ body {
     font-size: 20px;
     width: 940px;
     margin-top: 20px;
-    
 }
+
 #validator {
     text-align: center;
 }
