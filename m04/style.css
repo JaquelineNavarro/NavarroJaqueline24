@@ -1,0 +1,107 @@
+#title {
+    font-family: 'GrandHotelRegular';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 120px;
+    color: aliceblue;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(https://assets.editorial.aetnd.com/uploads/2009/11/Colima-GettyImages-1474824994.jpg?width=3840&height=1920&crop=3840%3A1920%2Csmart&quality=75&auto=webp);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nav {
+    background-color: dimgray;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    
+}
+#nav ul {
+    list-style-type: none;
+}
+#nav ul li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+#nav a {
+    text-decoration: none;
+    color: bisque;
+}
+#nav a:hover {
+    color: greenyellow;
+}
+
+#feature {
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 100 em;
+    width: 1370px;
+    font-size: 20px;
+
+}
+#feature img {
+    width: 250px;
+    float: right;
+}
+
+.article-column1 {
+    width: 450px;
+    height: 250px;
+	float: left;
+    background-color: lightblue;
+    margin-left: 50px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.article-column2 {
+    width: 450px;
+    height: 250px;
+    float: left;
+    background-color: brown;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.article-column3 {
+    width: 450px;
+    height: 250px;
+    float: left;
+    background-color: burlywood;
+    margin-right: 50px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#footer {
+    display: inline-block;
+    background-color: goldenrod;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    height: 60px;
+    width: 1370px;
+    margin-bottom: 30px;
+}
+
