@@ -7,24 +7,27 @@
     color: aliceblue;
     margin: 0%;
     padding: 0%;
+    width: 940px;
 }
 
 body {
     background-image: url(https://assets.editorial.aetnd.com/uploads/2009/11/Colima-GettyImages-1474824994.jpg?width=3840&height=1920&crop=3840%3A1920%2Csmart&quality=75&auto=webp);
     background-repeat: no-repeat;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 #nav {
     background-color: dimgray;
     text-align: center;
     font-size: 20px;
-    padding: 5px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 940px;
     
 }
 #nav ul {
@@ -44,19 +47,19 @@ body {
 
 #content {
     overflow: auto;
+    height: 100%;
 }
 
 #feature {
     display: inline-block;
     background-color: white;
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    height: 250px;
-    width: 1370px;
+    margin: 10px;
+    padding: 10px;
     font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
 
 }
 #feature img {
@@ -65,48 +68,46 @@ body {
 }
 
 .article-column1 {
-    width: 450px;
-    height: 250px;
-	float: left;
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin: 10px;
     background-color: lightblue;
-    margin-left: 50px;
-    margin-right: 10px;
     display: inline-block;
     text-align: center;
-    margin-bottom: 20px;
+    
     
 }
 .article-column2 {
-    width: 450px;
-    height: 250px;
+    width: 300px;
+    height: 150px;
     float: left;
+    margin: 10px;
     background-color: brown;
-    margin-right: 10px;
     display: inline-block;
     text-align: center;
-    margin-bottom: 10px;
+    
     
 }
 .article-column3 {
-    width: 450px;
-    height: 250px;
+    width: 300px;
+    height: 150px;
     float: left;
+    margin: 10px;
     background-color: burlywood;
-    margin-right: 50px;
     display: inline-block;
     text-align: center;
-    margin-bottom: 10px;
+    
 }
 #footer {
     display: inline-block;
     background-color: goldenrod;
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 10px;
+    padding: 10px;
     font-size: 20px;
-    height: 60px;
-    width: 1370px;
-    margin-bottom: 30px;
+    width: 940px;
+    
 }
 #validator {
     text-align: center;
