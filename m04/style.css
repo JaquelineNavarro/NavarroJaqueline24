@@ -12,12 +12,15 @@
 
 body {
     background-image: url(https://assets.editorial.aetnd.com/uploads/2009/11/Colima-GettyImages-1474824994.jpg?width=3840&height=1920&crop=3840%3A1920%2Csmart&quality=75&auto=webp);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
-    padding: 0;
     font-family: 'Times New Roman', Times, serif;
+    
+}
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
     
 }
 
@@ -56,14 +59,10 @@ body {
     display: inline-block;
     background-color: white;
     text-align: center;
-    margin: 10px;
     padding: 10px 0px 5px 0px;
     font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    width: 940px;
-    
+    margin: 0 auto;
+    width: 940px; 
 
 }
 #feature img {
