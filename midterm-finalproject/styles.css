@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'SpotCookieRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: black;  
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'NowRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 45px;
+}
+
+p {
+    font-family: 'NowRegular';
+    font-weight: normal;
+    font-style: normal;
+    padding: 10px;
+}
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color:#fffbec;
+}
+#nav {
+    text-align: center;
+    background-color: #FFC000;
+    margin: 0 auto;
+}
+
+#nav ul {
+list-style-type: none;
+}
+
+#nav ul li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+#nav a:hover {
+    color: #e4007c;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'HankenLight';
+   font-weight: bolder;
+   font-style: normal;
+}
+
+#icon {
+    width: 20px;
+    height: 20px;
+}
+
+#icon:hover {
+    background-color: #e4007c;
+}
+
+body {
+    background-image:url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+#left-section {
+    float: left;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: auto 0;
+    
+}
+
+#right-section {
+    float: left;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: auto 0;
+}
+
+#content1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.link {
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: 'HankenLight';
+    font-size: 15px;
+}
+
+#content2 {
+    text-align: center;
+    margin: 0 auto;
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clear {
+    clear:both; 
+}
+
+.article-column1 {
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin: 10px;
+    background-color:#0e433d;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    margin-top: 20px;  
+}
+
+.article-column2 {
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin: 10px;
+    background-color: #f99c22;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    margin-top: 20px;  
+}
+
+.article-column3 {
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin: 10px;
+    background-color: #e35e72;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    margin-top: 20px;
+}
+
+.article-column4 {
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin: 10px;
+    background-color: #ee1e28;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    margin-top: 20px;  
+}
+
+.article-column5 {
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin: 10px;
+    background-color: #02a395;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    margin-top: 20px;
+}
+
+.artifactimg {
+    width: 200px;
+    height: 220px;
+}
+
+.artifactdescription {
+    color: #fffbec;
+}
+
+.aboutme {
+    font-size: 20px;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background: #02a395;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form h2 {
+    color:#fffbec;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background:#fffbec;
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background: #fffbec ;
+    color: black;
+    font-size: 18px;
+    border: 0;
+    outline:none;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 20px auto;
+    border-radius: 30px;
+    align-self: center;
+}
+
+#gif {
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    
+}
