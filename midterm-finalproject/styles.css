@@ -10,7 +10,7 @@ h1 {
     color: black;  
     text-align: center;
     font-size: 100px;
-    text-shadow: 2px;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 h2 {
