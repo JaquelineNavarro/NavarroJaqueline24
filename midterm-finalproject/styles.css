@@ -79,21 +79,38 @@ body {
 }
 
 #left-section {
-    float: left;
-    width: 400px;
-    height: 400px;
     text-align: center;
-    margin: auto 0;
-    
+    margin: 0 auto;
+    display: inline-block;
+    width: 50%;
 }
 
 #right-section {
-    float: left;
-    width: 400px;
-    height: 400px;
     text-align: center;
-    margin: auto 0;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    float: right;
 }
+
+.screenshoots {
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    margin-top: 20px; 
+}
+
+.screenimg {
+    width: 400px;
+    height: 150px;
+}
+
+
 
 #content1 {
     text-align: center;
@@ -244,4 +261,19 @@ form button {
     margin-top: 50px;
     padding-bottom: 50px;
     
+}
+
+h4 {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;   
+}
+
+.caption {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px; 
+    color: #e4007c;
 }
