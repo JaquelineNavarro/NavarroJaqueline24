@@ -26,7 +26,8 @@ p {
     font-family: 'Patrick Hand', cursive;
     font-weight: normal;
     font-style: normal;
-    padding: 10px;
+    padding: 20px;
+    font-size: 15px;
 }
 #wrapper {
     width: 960px;
