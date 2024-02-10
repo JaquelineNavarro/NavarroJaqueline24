@@ -36,21 +36,25 @@ body {
 #upLeft {
     float:left;
     text-align: right;
+    width: 50%;
 }
 
 #downLeft {
     float: left;
     text-align: right;
+    width: 50%;
 }
 
 #upRight {
     float: left;
     text-align: left;
+    width: 50%;
 }
 
 #downRight{
     float: left;
     text-align: left;
+    width: 50%;
 }
 
 .Uppart {
@@ -58,12 +62,8 @@ body {
 }
 
 #container {
-    text-align: center;
     font-size: 40px;
     padding-top: 50px;
-    background-color: whitesmoke;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 h1 {
