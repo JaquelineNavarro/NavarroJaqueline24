@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat+Alternates&family=Patrick+Hand&display=swap');
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: black;  
+    text-align: center;
+    font-size: 400%;
+}
+
+body {
+    background: rgb(255,251,55);
+    background: linear-gradient(90deg, rgba(255,251,55,1) 5%, rgba(235,89,38,1) 58%, rgba(244,46,171,1) 88%);
+}
+
+#thankyougif {
+    margin: 0 auto;
+    width: 400px;
+}

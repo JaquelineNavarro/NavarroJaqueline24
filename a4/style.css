@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat+Alternates&family=Patrick+Hand&display=swap');
+
+.errorMessage {
+    color: red;
+}
+
+.textSpace {
+    
+}
+
+.formControl {
+    
+}
+
+body {
+    background: rgb(255,251,55);
+    background: linear-gradient(90deg, rgba(255,251,55,1) 5%, rgba(235,89,38,1) 58%, rgba(244,46,171,1) 88%);
+}
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: white;  
+    text-align: center;
+    font-size: 400%;
+}
+
+.labelText {
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+   font-weight: bolder;
+   font-style: normal;
+}
+
+#container {
+    background-color: whitesmoke;
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+span {
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    padding: auto;
+    
+}
+
+button {
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: pink;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+select {
+    width: 100%;
+    margin-bottom: 1%;
+} 
