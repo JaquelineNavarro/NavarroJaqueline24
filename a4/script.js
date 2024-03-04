@@ -1,5 +1,4 @@
 function validateForm () {
-    debugger;
     var isValid = true; 
 
     if (!isFirstNameValid()) {
@@ -107,13 +106,13 @@ function isPhoneValid () {
         
         return false;
     }
-    if (userPhone > 15) {
+    if (userPhone.length > 15) {
         document.getElementById("phoneError").innerHTML = "Phoner number cannot have more than 15 characters"
         
         return false;
     }
     var numbersvariables = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
-    if (!userPhone.test(userPhone)) {
+    if (!numbersvariables.test(userPhone)) {
         document.getElementById("phoneError").innerHTML = "Phoner number section only accept numbers"
         
         return false;
@@ -169,7 +168,6 @@ function isAddressValid () {
 }
 
 function isCityValid () {
-    debugger;
     var userCity = document.getElementById("City").value;
     if (userCity === "") {
         document.getElementById("cityError").innerHTML = "City is required!"
@@ -181,7 +179,6 @@ function isCityValid () {
 
 
 function isStateValid () {
-    debugger;
     var userState = document.getElementById("State").value;
     if (userState === "") {
         document.getElementById("stateError").innerHTML = "State is required!"
@@ -202,7 +199,6 @@ function isCountryValid () {
 }
 
 function isZipCodeValid () {
-    debugger;
     var userZipCode = document.getElementById("ZipCode").value;
     var isUSASelected = document.getElementById("Country").value === "USA";
     if (isUSASelected && userZipCode === "") {
