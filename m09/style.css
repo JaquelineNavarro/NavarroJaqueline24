@@ -9,9 +9,24 @@ body {
     background: whitesmoke;
   }
   .dot {
-    height: 8px; width: 8px;
-    border-radius: 4px; /* rounds corners */
     position: absolute;
+  }
+  .small {
+    height: 8px; 
+    width: 8px;
+    border-radius: 4px;
+  }
+
+  .medium {
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+  }
+
+  .large {
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
   }
 
 .webTitle {

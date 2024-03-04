@@ -10,11 +10,11 @@ deleteBtn.addEventListener("click",deleateAll);
 function dots (event) {
     console.log("dots")
     let changeColor = document.getElementById("selectColor").value;
-    // let changeSize = document.getElementById("selectSize").value;
+    let changeSize = document.getElementById("selectSize").value;
     let newSpot = document.createElement("div");
  
     newSpot.style.backgroundColor = changeColor;
-    // newSpot.style.width = changeSize;
+    newSpot.classList.add(changeSize);
     newSpot.classList.add("dot"); 
     newSpot.style.left = (event.pageX - 4) + "px";
     newSpot.style.top = (event.pageY - 4) + "px";
