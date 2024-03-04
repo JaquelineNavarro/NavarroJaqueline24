@@ -1,4 +1,5 @@
 function validateForm () {
+    debugger;
     var isValid = true; 
 
     if (!isFirstNameValid()) {
@@ -91,7 +92,7 @@ function isEmailValid () {
         return false;
     }
     var emailRequirment = /\S+@\S+\.\S+/;
-    if (!userEmail.test(userEmail)) {
+    if (!emailRequirment.test(userEmail)) {
         document.getElementById("emailError").innerHTML = "Email required @ sign"
         
         return false;
@@ -168,6 +169,7 @@ function isAddressValid () {
 }
 
 function isCityValid () {
+    debugger;
     var userCity = document.getElementById("City").value;
     if (userCity === "") {
         document.getElementById("cityError").innerHTML = "City is required!"
@@ -179,6 +181,7 @@ function isCityValid () {
 
 
 function isStateValid () {
+    debugger;
     var userState = document.getElementById("State").value;
     if (userState === "") {
         document.getElementById("stateError").innerHTML = "State is required!"
@@ -199,8 +202,8 @@ function isCountryValid () {
 }
 
 function isZipCodeValid () {
-    var userZipCode = document.getElementById("ZipCode").value;
     debugger;
+    var userZipCode = document.getElementById("ZipCode").value;
     var isUSASelected = document.getElementById("Country").value === "USA";
     if (isUSASelected && userZipCode === "") {
         document.getElementById("zipCodeError").innerHTML = "Since you selected as your country USA, you need to write your zip code!"
