@@ -114,13 +114,13 @@ function isPhoneValid () {
         return false;
     }
     if (userPhone.length > 15) {
-        document.getElementById("phoneError").innerHTML = "Phoner number cannot have more than 15 characters"
+        document.getElementById("phoneError").innerHTML = "Phone number cannot have more than 15 characters"
         
         return false;
     }
-    var numbersvariables = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+    var numbersvariables = (/^[0-9]+$/);
     if (!numbersvariables.test(userPhone)) {
-        document.getElementById("phoneError").innerHTML = "Phoner number section only accept numbers"
+        document.getElementById("phoneError").innerHTML = "Phone number section only accept numbers"
         
         return false;
     }
