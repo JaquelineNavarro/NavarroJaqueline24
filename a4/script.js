@@ -49,6 +49,7 @@ function validateForm () {
 }
 
 function isFirstNameValid () {
+    debugger;
     var firstname = document.getElementById("FirstName").value;
     if (firstname === "") {
         document.getElementById("firstNameError").innerHTML = "First name is required!"
@@ -65,6 +66,8 @@ function isFirstNameValid () {
         
         return false;
     }
+    document.getElementById("firstNameError").innerHTML = ""
+
    return true
 }
 
@@ -79,7 +82,10 @@ function isLastNameValid ()  {
         document.getElementById("lastNameError").innerHTML = "Last name cannot have more than 50 characters"
         
         return false;
+        
     }
+    document.getElementById("lastNameError").innerHTML = ""
+
    return true
 }
 
@@ -96,6 +102,8 @@ function isEmailValid () {
         
         return false;
     }
+    document.getElementById("emailError").innerHTML = ""
+
     return true
 }
 
@@ -117,7 +125,11 @@ function isPhoneValid () {
         
         return false;
     }
+
+    document.getElementById("phoneError").innerHTML = ""
+
     return true
+
     }
     
 function isUserNameValid () {
@@ -132,6 +144,9 @@ function isUserNameValid () {
         
         return false;
     }
+
+    document.getElementById("userNameError").innerHTML = ""
+
     return true
 }
 
@@ -154,6 +169,9 @@ function isPasswordValid () {
         
         return false;
     }
+
+    document.getElementById("passwordError").innerHTML = ""
+    
     return true
 }
 
@@ -164,6 +182,9 @@ function isAddressValid () {
         
         return false;
     }
+
+    document.getElementById("addressError").innerHTML = ""
+
     return true
 }
 
@@ -174,6 +195,9 @@ function isCityValid () {
         
         return false;
     }
+
+    document.getElementById("cityError").innerHTML = ""
+
     return true
 }
 
@@ -185,6 +209,9 @@ function isStateValid () {
         
         return false;
     }
+
+    document.getElementById("stateError").innerHTML = ""
+
     return true
 }
 
@@ -195,6 +222,9 @@ function isCountryValid () {
         
         return false;
     }
+
+    document.getElementById("countryError").innerHTML = ""
+
     return true
 }
 
@@ -206,6 +236,8 @@ function isZipCodeValid () {
         
         return false;
     }
+
+    document.getElementById("zipCodeError").innerHTML = ""
 
     return true
 }
