@@ -49,7 +49,6 @@ function validateForm () {
 }
 
 function isFirstNameValid () {
-    debugger;
     var firstname = document.getElementById("FirstName").value;
     if (firstname === "") {
         document.getElementById("firstNameError").innerHTML = "First name is required!"
