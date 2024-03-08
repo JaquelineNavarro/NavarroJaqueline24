@@ -16,6 +16,7 @@ next.onclick = function(){
     } else {
         active = active + 1;
     }
+    reloadSliders();
 }
 
 previous.onclick = function(){
@@ -24,6 +25,7 @@ previous.onclick = function(){
   } else {
     active = active -1;
   }
+  reloadSliders();
 }
 
 function reloadSliders() {
