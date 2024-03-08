@@ -2,7 +2,10 @@
 
 body{
     margin: 0;
+    padding: 0;
     background-color:whitesmoke;
+    height: 100vh;
+    
 }
 
 .webtitle {
@@ -32,6 +35,7 @@ body{
     height: 700px;
     margin: auto;
     position: relative;
+    overflow: hidden;
 }
 
 .list-photos {
