@@ -74,8 +74,11 @@ body{
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px; 
+}
+
+#playbtn:hover {
+    background-color:#e4007c;
 }
 
 #stopbtn {
@@ -83,7 +86,10 @@ body{
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 20px;
-    
+}
+
+#stopbtn:hover {
+    background-color:#e4007c;
 }
 
 .btns {
@@ -95,6 +101,7 @@ body{
 
 .btn {
     display: inline;
+    transition: 0.4s;
 }
 
 .textCaption {
