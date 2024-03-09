@@ -3,7 +3,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
+    /* background-image: url("photos/background.jpeg"); */
     height: 100vh;
     
 }
@@ -12,16 +13,16 @@ body{
     font-family: 'Cookie', cursive;
     font-weight: normal;
     font-style: normal;
-    color: black;  
+    color: #281800;  
     text-align: center;
-    font-size: 95px;
-    text-shadow: 2px 2px 5px #e4007c;
+    font-size: 100px;
 }
 
 .websubtitle {
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #e4007c ;
 }
 
 .heading {
@@ -77,6 +78,16 @@ body{
     font-size: 20px;
 }
 
+#prev:hover {
+    background-color: #FFF68F;
+    color: brown;
+}
+ #next:hover {
+    background-color:#FFF68F;
+    color: brown;
+ }
+
+
 #playbtn {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
@@ -86,9 +97,10 @@ body{
 }
 
 #playbtn:hover {
-    background-color:#e4007c;
-    color: #fff;
+    background-color:#FFF68F;
+    color: brown;
 }
+
 
 #stopbtn {
     font-family: 'Montserrat Alternates', sans-serif;
@@ -99,8 +111,8 @@ body{
 }
 
 #stopbtn:hover {
-    background-color:#e4007c;
-    color: #fff;
+    background-color:#FFF68F;
+    color: brown;
 }
 
 .btns {
@@ -116,12 +128,19 @@ body{
 
 .textCaption {
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #f2f2f2;
-    font-size: 30px;
+    color: floralwhite;
+    text-shadow: 2px 2px black;
+    font-weight: 950;
+    font-size: 35px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
+    text-align: center; 
+}
+
+.textConteiner {
+    position: relative;
     text-align: center;
 }
 /* .dots {

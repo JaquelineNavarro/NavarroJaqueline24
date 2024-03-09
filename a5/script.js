@@ -5,18 +5,23 @@ let list = document.querySelector('.sliders .list-photos');
 let photos = document.querySelectorAll('.sliders .list-photos .photo'); //div list
 let previous = document.getElementById('prev');
 let next = document.getElementById('next');
-
 let active = 0;
 let lenghItems = photos.length - 1; //lenght cantidad de items adentro de esa lista o array 
+let playButton = document.getElementById('playbtn');
+const images = document.querySelectorAll('img');
+let i = 0;
+let stopButton = document.getElementById('stopbtn');
+var idInterval;
 
+next.onclick = nextImages;
 
-next.onclick = function(){
+function nextImages() {
     if(active + 1 > lenghItems){
         active = 0
     } else {
         active = active + 1;
     }
-    reloadSliders();
+    showImages();
 }
 
 previous.onclick = function(){
@@ -25,10 +30,20 @@ previous.onclick = function(){
   } else {
     active = active -1;
   }
-  reloadSliders();
+  showImages();
 }
 
-function reloadSliders() {
+
+playButton.onclick = function(){
+   idInterval = setInterval(nextImages,2000);
+} 
+
+
+stopButton.onclick = function() {
+    clearInterval(idInterval);
+}
+
+function showImages() {
     let checkleft = photos[active].offsetLeft;
     list.style.left = -checkleft + 'px';
 
@@ -36,33 +51,9 @@ function reloadSliders() {
     list.style.right = -checkRight + 'px';
 }
 
-// var playButton = document.getElementById("playbtn");
-// playButton.addEventListener("click",playSlideShow)
 
 
-// function playSlideShow () {
-    
-// }
-// const images = document.querySelectorAll('img');
-// let i = 0;
 
-// setInterval(function(){
-//     if(i == 0) {
-//         images[i].style.display = 'block';
-//     } else if(i == images.length) {
-//         images[i - 1].style.display = 'none';
-//         images[0].style.display = 'block';
-//         i = 0; 
-//     } else {
-//         images[i - 1].style.display = 'none';
-//         images [i].style.display = 'block';
-//     }
-//     i ++;
-// }, 1000);
-
-// function stopBtn () {
-//     clearInterval(images);
-// }
 
 
 
