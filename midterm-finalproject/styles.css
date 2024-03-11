@@ -52,6 +52,7 @@ list-style-type: none;
 
 #nav a:hover {
     color: #e4007c;
+    font-size: 22px;
 }
 
 #nav a {
@@ -68,8 +69,10 @@ list-style-type: none;
     height: 20px;
 }
 
-#icon:hover {
+.icon:hover {
     background-color: #e4007c;
+    transform: scale(1.5);
+
 }
 
 body {
@@ -209,6 +212,9 @@ body {
 .artifactdescription {
     color: #fffbec;
 }
+.artifactdescription:hover {
+    font-size: 20px;
+}
 
 .aboutme {
     font-size: 20px;
@@ -220,6 +226,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* Contact Me page */
 
 form {
     background: #02a395;
@@ -260,6 +268,8 @@ form button {
     align-self: center;
 }
 
+/* Thank you page   */
+
 #gif {
     margin: 0 auto;
     display: block;
@@ -281,4 +291,28 @@ h4 {
     font-size: 20px; 
     color: #e4007c;
     text-align: center;
+}
+
+/* Module assignments */
+.titleModule {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px; 
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.liModules {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.liModules:hover {
+    font-size: 25px;
+    background-color: #f99c22;
+    color: #0e433d;
 }
