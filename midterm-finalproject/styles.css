@@ -116,11 +116,17 @@ body {
     margin: 0 auto;
 }
 
-.link {
+.linkArtifact {
     color: antiquewhite;
     text-decoration: none;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 15px;
+}
+
+.linkArtifact:hover {
+    background-color: white;
+    color: black;
+    font-size: 20px;
 }
 
 #content2 {
@@ -137,7 +143,7 @@ body {
 
 .article-column1 {
     width: 300px;
-    height: 350px;
+    height: 370px;
     float: left;
     margin: 10px;
     background-color:#0e433d;
@@ -149,7 +155,7 @@ body {
 
 .article-column2 {
     width: 300px;
-    height: 350px;
+    height: 370px;
     float: left;
     margin: 10px;
     background-color: #f99c22;
@@ -161,7 +167,7 @@ body {
 
 .article-column3 {
     width: 300px;
-    height: 350px;
+    height: 370px;
     float: left;
     margin: 10px;
     background-color: #e35e72;
@@ -173,10 +179,10 @@ body {
 
 .article-column4 {
     width: 300px;
-    height: 350px;
+    height: 370px;
     float: left;
     margin: 10px;
-    background-color: #ee1e28;
+    background-color: #D51B21;
     display: inline-block;
     text-align: center;
     padding: 10px 0px 5px 0px;
@@ -185,7 +191,7 @@ body {
 
 .article-column5 {
     width: 300px;
-    height: 350px;
+    height: 370px;
     float: left;
     margin: 10px;
     background-color: #02a395;
