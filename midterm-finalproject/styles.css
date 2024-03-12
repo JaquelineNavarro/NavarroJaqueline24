@@ -374,3 +374,9 @@ h4 {
     padding: 20px;
     font-size: 30px;
 }
+
+/* Own section */
+
+audio::-webkit-media-controls {
+    display: none;
+}
