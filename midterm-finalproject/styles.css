@@ -120,10 +120,11 @@ body {
 }
 
 .linkArtifact {
-    color: antiquewhite;
+    color:whitesmoke;
     text-decoration: none;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 15px;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .linkArtifact:hover {
@@ -149,7 +150,7 @@ body {
     height: 370px;
     float: left;
     margin: 10px;
-    background-color:#0e433d;
+    background-color:#b2b82e;
     display: inline-block;
     text-align: center;
     padding: 10px 0px 5px 0px;
@@ -185,7 +186,7 @@ body {
     height: 370px;
     float: left;
     margin: 10px;
-    background-color: #D51B21;
+    background-color: #d04254;
     display: inline-block;
     text-align: center;
     padding: 10px 0px 5px 0px;
@@ -210,10 +211,15 @@ body {
 }
 
 .artifactdescription {
-    color: #fffbec;
+    color: #FDFCFB;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 19px;
 }
 .artifactdescription:hover {
-    font-size: 20px;
+    font-size: 25px;
+    color:black;
 }
 
 .container {
