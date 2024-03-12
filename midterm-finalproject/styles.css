@@ -325,6 +325,47 @@ h4 {
     font-size: 30px;
 }
 
+.lastParagraph {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: normal;
+    font-style: normal;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: #e4007c;
+    -webkit-animation: colorchange 20s infinite alternate
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+      color: blue;
+    }
+    10% {
+      color: #8e44ad;
+    }
+    20% {
+      color: #1abc9c;
+    }
+    30% {
+      color: #d35400;
+    }
+    40% {
+      color: blue;
+    }
+    50% {
+      color:#0e433d;
+    }
+    60% {
+      color: blue;
+    }
+    90% {
+      color:#b2b82e;
+    }
+    100% {
+      color:#e4007c;
+    }
+  }
+
 /* About me section  */
 .aboutme {
     font-family: 'Patrick Hand', cursive;
