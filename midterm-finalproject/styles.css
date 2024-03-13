@@ -395,6 +395,15 @@ h4 {
     font-size: 30px;
 }
 
+.listOwn {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: normal;
+    font-style: normal;
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
 /* Coursework Section */
 
 .infoCourses {
