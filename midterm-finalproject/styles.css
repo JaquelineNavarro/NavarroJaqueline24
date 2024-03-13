@@ -376,6 +376,10 @@ h4 {
     font-size: 30px;
 }
 
+.animationPalm {
+    
+}
+
 /* Own section */
 .ownTitle {
     font-family: 'Patrick Hand', cursive;
@@ -395,25 +399,35 @@ h4 {
     font-size: 30px;
 }
 
+.liTest {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
 .listOwn {
     font-family: 'Patrick Hand', cursive;
     font-weight: normal;
     font-style: normal;
-    padding: 20px;
     font-size: 30px;
-    margin-left: 20px;
+    text-align: center;
+    list-style-type: none;
 }
+
 
 video {
-   margin-left: 10%;
+   margin-left: 15%;
 }
 
-.animationFish {
-    width: 900px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
+.fishimages {
+    float: right;
+    margin-top: 30px;
+    margin-right: 15px;
+    width: 300px;
+    height: auto;
 }
+
 
 /* Coursework Section */
 
@@ -434,3 +448,9 @@ video {
     padding-top: 10px;
     color:black;
 }
+
+.listStyle {
+    list-style-type: none;
+}
+
+
