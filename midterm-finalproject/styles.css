@@ -404,6 +404,17 @@ h4 {
     margin-left: 20px;
 }
 
+video {
+   margin-left: 10%;
+}
+
+.animationFish {
+    width: 900px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Coursework Section */
 
 .infoCourses {
