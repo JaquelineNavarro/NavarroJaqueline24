@@ -400,9 +400,6 @@ h4 {
 }
 
 .audioFile {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     margin-left: 320px;
 }
 
@@ -459,7 +456,7 @@ video {
 
 .infoCourses {
     font-family: 'Patrick Hand', cursive;
-    font-size: 25px;
+    font-size: 30px;
     text-align: left;
     padding-left: 10px;
     color: #0e433d;
@@ -487,12 +484,12 @@ video {
     padding-left: 10px;
     color: #0e433d;
     padding-bottom: 10px;
-    background-color: #b2b82e;
+    background-color: #Cef5a1;
 }
 
 .cLink {
     font-family: 'Patrick Hand', cursive;
-    font-size: 25px;
+    font-size: 30px;
     text-align: left;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -500,7 +497,7 @@ video {
 
 }
 .cLink:hover {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .cLink:visited {
