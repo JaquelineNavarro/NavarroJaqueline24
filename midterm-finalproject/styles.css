@@ -469,7 +469,7 @@ video {
     background-color: #b2b82e;
 }
 
-.coursesLink {
+.cLink {
     font-family: 'Patrick Hand', cursive;
     font-size: 25px;
     text-align: left;
@@ -477,7 +477,7 @@ video {
     color: #0e433d;
     padding-bottom: 10px;
 }
-.coursesLink{
+.cLink:hover {
     font-size: 30px;
     color: #f99c22;
 }
