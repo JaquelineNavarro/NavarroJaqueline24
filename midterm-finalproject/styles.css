@@ -474,9 +474,10 @@ video {
     font-size: 25px;
     text-align: left;
     padding-left: 10px;
-    color:#0e433d;
+    color: #0e433d;
     padding-bottom: 10px;
 }
-.coursesLink:hover {
+.coursesLink{
     font-size: 30px;
+    color: #f99c22;
 }
