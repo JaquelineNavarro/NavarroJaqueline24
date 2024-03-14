@@ -102,12 +102,15 @@ body {
 
 /* Validation page  */
 
+#parent-container {
+    display: flex;
+}
+
 #left-section {
     display: flex;
     flex-direction: column;
     width: 50%;
     align-items: center;
-    float: left;
 }
 
 #right-section {
@@ -115,7 +118,6 @@ body {
     flex-direction: column;
     width: 50%;
     align-items: center;
-    float: right;
 }
 
 .screenimg {
