@@ -36,7 +36,12 @@ a {
     width: 960px;
     margin: 0 auto;
     background-color:#fffbec;
-    
+
+    @media only screen and (max-width:960px){
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
 }
 #nav {
     text-align: center;
@@ -45,16 +50,25 @@ a {
 }
 
 #nav ul {
-list-style-type: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 800px) {
+        flex-direction: column;
+    }
 }
 
 #nav ul li{
     display: inline-block;
     padding: 5px 10px;
+    @media only screen and (max-width: 800px) {
+        display: flex;
+    }
 }
 
 #nav a:hover {
-    color:#ed1a30;
+    color: #ed1a30;
     font-size: 22px;
     font-weight: 800;
 }
@@ -86,32 +100,22 @@ body {
     background-repeat: repeat-x;
 }
 
-/* Artifacts section */
+/* Validation page  */
+
 #left-section {
-    text-align: center;
-    margin: 0 auto;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     width: 50%;
+    align-items: center;
+    float: left;
 }
 
 #right-section {
-    text-align: center;
-    margin: 0 auto;
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-    float: right;
-}
-
-.screenshoots {
-    width: 400px;
-    height: 350px;
-    margin: 10px;
     display: flex;
-    justify-content:center;
-    text-align: center;
-    padding: 10px 0px 5px 0px;
-    margin-top: 20px; 
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    float: right;
 }
 
 .screenimg {
@@ -119,9 +123,12 @@ body {
     height: 150px;
 }
 
-#content1 {
-    text-align: center;
-    margin: 0 auto;
+/* Artifacts section */
+
+#articles-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .linkArtifact {
@@ -138,14 +145,6 @@ body {
     font-size: 20px;
 }
 
-#content2 {
-    text-align: center;
-    margin: 0 auto;
-    width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .clear {
     clear:both; 
 }
@@ -153,10 +152,8 @@ body {
 .article-column1 {
     width: 300px;
     height: 370px;
-    float: left;
     margin: 10px;
     background-color:#b2b82e;
-    display: inline-block;
     text-align: center;
     padding: 10px 0px 5px 0px;
     margin-top: 20px;  
@@ -165,10 +162,8 @@ body {
 .article-column2 {
     width: 300px;
     height: 370px;
-    float: left;
     margin: 10px;
     background-color: #f99c22;
-    display: inline-block;
     text-align: center;
     padding: 10px 0px 5px 0px;
     margin-top: 20px;  
@@ -177,10 +172,8 @@ body {
 .article-column3 {
     width: 300px;
     height: 370px;
-    float: left;
     margin: 10px;
     background-color: #e35e72;
-    display: inline-block;
     text-align: center;
     padding: 10px 0px 5px 0px;
     margin-top: 20px;
@@ -189,10 +182,8 @@ body {
 .article-column4 {
     width: 300px;
     height: 370px;
-    float: left;
     margin: 10px;
     background-color: #d04254;
-    display: inline-block;
     text-align: center;
     padding: 10px 0px 5px 0px;
     margin-top: 20px;  
@@ -201,10 +192,8 @@ body {
 .article-column5 {
     width: 300px;
     height: 370px;
-    float: left;
     margin: 10px;
     background-color: #02a395;
-    display: inline-block;
     text-align: center;
     padding: 10px 0px 5px 0px;
     margin-top: 20px;
@@ -237,14 +226,22 @@ body {
 
 /* Contact Me page */
 
+.formLabel {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
 form {
     background: #02a395;
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
-    width: 90%;
+    width: 80%;
     max-width: 600px;
     border-radius: 10px;
+    height: 700px;
 }
 
 form h2 {
@@ -263,10 +260,11 @@ form input, form textarea {
 }
 
 form button {
+    font-family: 'Patrick Hand', cursive;
     padding: 15px;
     background: #fffbec ;
     color: black;
-    font-size: 18px;
+    font-size: 25px;
     border: 0;
     outline:none;
     cursor: pointer;
@@ -274,6 +272,18 @@ form button {
     margin-top: 20px;
     border-radius: 30px;
     align-self: center;
+}
+
+form button:hover {
+    background-color: #Cef5a1;
+}
+
+.errorMessage {
+    font-family:monospace;
+    font-size: 15px;
+    color: red;
+    background-color:  #fffbec;
+    
 }
 
 /* Thank you page   */

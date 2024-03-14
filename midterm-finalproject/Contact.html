@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact Me</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <!-- <script type="text/javascript"
@@ -30,12 +30,18 @@
             </ul>
         </div>
         <div class="container">
-            <form action="thankyou.html">
+            <form action="thankyou.html" id="myForm" onsubmit="return validateForm();">
                 <h2>Contact Me</h2>
-                <input type="text" id="name" placeholder="Your Name" required>
-                <input type="email" id="email" placeholder="Your Email Here" required>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="How can I help you?"></textarea>
-                <button type="submit" onclick="sendMail()">Send</button>
+                <label class="formLabel" for="Username">Name:</label>
+                <input type="text" id="name">
+                <span id="nameError" class="errorMessage"></span>
+                <label class="formLabel" for="Email">Email:</label>
+                <input type="email" id="email">
+                <span id="emailError" class="errorMessage"></span>
+                <label class="formLabel" for="Comments">Leave your comments!</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <span id="messageError" class="errorMessage"></span>
+                <button type="submit">Send</button>
             </form>
         </div>
         <div class="validators">
